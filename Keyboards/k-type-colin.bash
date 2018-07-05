@@ -21,7 +21,7 @@ BaseMap="scancode_map"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="k-type-colin/KType-Standard-0 k-type-colin/rainbow-wave k-type-colin/miami-wave k-type-colin/white-backlight k-type-colin/mac-mode stdFuncMap"
+DefaultMap="k-type-colin/KType-Standard-0 k-type-colin/rainbow-wave k-type-colin/miami-wave k-type-colin/white-backlight stdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -30,7 +30,9 @@ DefaultMap="k-type-colin/KType-Standard-0 k-type-colin/rainbow-wave k-type-colin
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
 PartialMaps[1]="k-type-colin/KType-Standard-1 stdFuncMap"
-PartialMaps[2]="k-type-colin/KType-Standard-2 stdFuncMap"
+PartialMaps[2]="k-type-colin/mac-mode stdFuncMap"
+PartialMaps[3]="k-type-colin/vim-mode stdFuncMap"
+
 
 
 ##########################
